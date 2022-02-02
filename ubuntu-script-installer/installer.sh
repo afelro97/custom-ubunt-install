@@ -1,6 +1,8 @@
 #update the system
 sudo apt update \
 sudo apt upgrade \
+#ubuntu commons
+sudo apt-get install -y software-properties-common \
 #install docker
 sudo apt-get install \
     ca-certificates \
@@ -31,3 +33,4 @@ sudo apt install openjdk-11-jdk \
 sudo add-apt-repository ppa:maarten-fonville/android-studio \
 sudo apt update \
 sudo apt install android-studio \
+sudo system reboot
