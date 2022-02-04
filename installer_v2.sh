@@ -38,12 +38,30 @@ sudo apt-get install neovim
 #install android studio
 sudo apt install openjdk-11-jdk 
 sudo add-apt-repository ppa:maarten-fonville/android-studio 
-sudo apt update 
-sudo apt install android-studio 
+sudo apt update -y
+sudo apt install android-studio -y
 
 #install libreoffice
-sudo apt install libreoffice
+sudo apt install libreoffice -y
 
 #install gnome-screenshot
-sudo apt-get install gnome-screenshot
+sudo apt-get install gnome-screenshot -y
+
+#install gimp
+sudo apt-get install gimp -y
+
+#install neofetch
+sudo apt-get install neofetch -y
+
+#install vlc
+sudo apt-get install vlc -y
+
+#install kdenlive
+sudo add-apt-repository ppa:kdenlive/kdenlive-stable
+
+sudo apt update
+
+sudo apt install kdenlive
+
+#reboot
 sudo reboot
