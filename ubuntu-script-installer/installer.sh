@@ -14,7 +14,7 @@ sudo apt-get update \
 sudo apt-get install docker-ce docker-ce-cli containerd.io \
 sudo groupadd docker \
 sudo usermod -aG docker $USER \
-newgrp docker \
+sudo usermod -aG docker $USER \s
 #install docker compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
 sudo chmod +x /usr/local/bin/docker-compose \
@@ -33,4 +33,4 @@ sudo apt install openjdk-11-jdk \
 sudo add-apt-repository ppa:maarten-fonville/android-studio \
 sudo apt update \
 sudo apt install android-studio \
-sudo system reboot
+sudo reboot
